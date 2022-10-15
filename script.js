@@ -35,7 +35,7 @@ function showWeaterReport(weather) {
         swal("Empty Input", "Please enter any city", "error");
         reset();
     }else if(city_code==='404'){
-        swal("Not Found", "warning");
+        swal("City Not Found", "warning");
         reset();
     }
     else{
